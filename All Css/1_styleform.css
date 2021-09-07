@@ -1,0 +1,30 @@
+/* This for All Paragraphs */
+p {color: brown;}
+
+/* This for All in, Body tag */
+body {background-color: white;
+    background-position: -5ex 0;
+    image-resolution: 5ex;
+}
+h1 {color: darkgreen;}
+h4 {color: darkorange;}
+
+/* mark and em */
+mark {
+    background-color: whitesmoke;
+}
+
+/* This for table */
+th {
+    color: black;
+    background-color: rgb(162, 20, 20);
+}
+th[id=ndate] {
+    background-color: rgb(165, 42, 42);
+}
+
+td {
+    font-size: 2ex;
+    color: #000;
+    background-color: lightcyan;
+}

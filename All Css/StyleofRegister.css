@@ -1,0 +1,109 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Heading color */
+h1 {
+  display: block;
+  font-size: 3em;
+  margin-block-start: 0.67px;
+  margin-block-end: 0.67px;
+  margin-inline-start: 5px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+
+/* Body Background */
+body {
+  background-image: url(https://source.unsplash.com/1200x800/?space);
+}
+
+aside {
+  float: right;
+  border-radius: 2px solid brown;
+}
+
+/* Full-width input fields */
+input[type=email], input[type=password], input[type=number] {
+  width: auto;
+  padding: 8px;
+  margin: 2px 0 -8px 0;
+  display: inline;
+  
+}
+/* Selected  input fields */
+input[type=email]:focus, input[type=password]:focus {
+  background-color: rgb(118, 225, 233);
+  outline: none;
+}
+
+/* margin of already and By creating */
+p {
+  font-style: italic;
+  margin: 5px;
+  margin-bottom: -3px;
+  color: rgb(93, 140, 6);
+}
+
+p1 {
+  font-style: italic;
+  margin-left: 2ex;
+}
+
+p2 {
+  margin-left: 1ex;
+}
+
+p3 {
+  color: darkcyan;
+  font-style: normal;
+}
+
+p4 {
+  color: darkolivegreen;
+  font-style: normal;
+}
+
+p5 {
+  color: darkorchid;
+  font-style: normal;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #04AA6D;
+}
+
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

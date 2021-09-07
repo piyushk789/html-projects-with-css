@@ -1,0 +1,85 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+
+.center
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]
+{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"]
+{
+    background: #03a9fa;
+}
+
+input[type="checkbox"]:before
+{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[type="checkbox"]:before
+{
+    left: 40px;
+}
+
+.youtube img {
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 15px, 15px, #03a9fa;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    /* background-color: #111; */
+}
+
+.libaray img {
+    width: 200px;
+    position: absolute;
+    /* top: 2px; */
+    left: 20px;
+    bottom: 35px;
+}
+
+.chess img {
+    position: absolute;
+    width: 350px;
+    top: 5ex;
+    right: 2px;
+}
+
+.playall img {
+    position: absolute;
+    top: 44%;
+    left: 36.5%;
+}

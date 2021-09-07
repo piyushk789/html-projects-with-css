@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Data</title>
+</head>
+
+<body>
+    <Table border="5">
+        <thead>
+            <th colspan="10">
+                A1 EDUCATION <br>
+                A1 Computer Education Institute <br>
+                Registration Form
+            </th>
+        </thead>
+        <!-------------------------------------------------->
+        <tbody>
+            <tr>
+                <!--  Your Name -->
+            <tr>
+                <th rowspan="2">Name of Applied</th>
+                <td>
+                    <input type="text" placeholder="First Name">
+                </td>
+                <th>
+                    <input type="file" name="importpic" id="">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" placeholder="Last name">
+                </th>
+                <td>
+                    <strong>
+                        Click on Choose File to upload your Pic
+                    </strong>
+                </td>
+            </tr>
+            <!-- Email -->
+            <!-- Gender -->
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="email" placeholder="Your Email" id="">
+                </td>
+                <th rowspan="3">
+                    Gender
+                </th>
+                <td>
+                    <input type="radio" class="chk" name="rad">Male
+                </td>
+            </tr>
+            <!-- Mobile No. -->
+            <tr>
+                <th rowspan="2">Mobile</th>
+                <td>
+                    <input type="number" placeholder="Phone No." id="">
+                <td>
+                    <input type="radio" class="chk" name="rad">Female
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" placeholder="What's app No." id="">
+                </td>
+                <td>
+                    <input type="radio" class="chk" name="rad">Others
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Address
+                </th>
+                <td>
+                    <input type="text" placeholder="Your Address" id="">
+                </td>
+                <th>
+                    Course
+                </th>
+                <td>
+                    <select name="course" id="course">
+                        <option value="batch">CCC</option>
+                        <option value="batch">DCAA</option>
+                        <option value="batch">DACP</option>
+                        <option value="batch">ADOAP</option>
+                        <option value="batch">Basic</option>
+                        <option value="batch">Tally</option>
+                        <option value="batch">Smart Basic</option>
+                        <option value="batch">Advance Tally</option>
+                        <option value="batch">Advance Excel</option>
+                        <option value="batch">O Level Programin</option>
+                    </select>
+                </td>
+            </tr>
+
+            </tr>
+
+
+        </tbody>
+    </Table>
+</body>
+
+</html>
